@@ -1,9 +1,5 @@
-# GeoNet: Enhanced 3D Tooth Segmentation via Geometric Feature Integration
-## Introduction
-This work is the PyTorch implementation of DBGANet and has been published in IEEE Transactions on Circuits and Systems for Video Technology.
-
-#
-
+# GeoNet
+Enhanced 3D Tooth Segmentation via Geometric Feature Integration
 ## Usage
 
 ### Requirements
