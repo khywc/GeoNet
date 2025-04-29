@@ -82,7 +82,7 @@ if __name__ == '__main__':
         os.mkdir(model_path)
 
     segnet_name = 'DBGANet'
-    num_classes = 15  # 国际编号中上牙和下牙类别数为16
+    num_classes = 15  # 国际编号中上牙和下牙类别数为15
     num_neighbor = 32  # k的值
     num_epochs = 100
     num_workers = 32
@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     model = My_Seg(num_classes=num_classes, num_neighbor=num_neighbor)
 
-    # 加载模型，重写一下，加载一下之前的模型
+    # 加载模型
     # path = "./model/test1/DBGANet_15classes_32k_100epochs_10000ncells_1batchsize_5kfold1_0.001lr/latest_checkpoint.tar"
     # checkpoint = torch.load(path)
     # model.load_state_dict(checkpoint['model_state_dict'])
